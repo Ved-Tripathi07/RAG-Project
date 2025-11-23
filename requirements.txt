@@ -1,0 +1,60 @@
+# Core Dependencies
+langchain>=0.3.24
+langchain-community>=0.3.15
+langchain-google-genai>=2.0.5
+google-genai
+
+# Vector Database
+qdrant-client>=1.11.3
+
+# FastAPI & Web Framework
+fastapi>=0.115.6
+uvicorn[standard]>=0.32.1
+python-multipart>=0.0.12
+
+# Document Processing
+beautifulsoup4>=4.12.3
+unstructured[all-docs]>=0.18.13
+python-docx>=1.1.2
+pypdf>=5.1.0
+nbformat>=5.10.4
+# Additional unstructured dependencies for enhanced processing
+python-magic  # For file type detection
+pillow>=10.0.0  # For image processing
+opencv-python>=4.8.0  # For advanced image processing
+pytesseract>=0.3.10  # For OCR capabilities
+
+# Data Processing
+pandas>=2.2.3
+numpy>=2.2.0
+tiktoken>=0.8.0
+
+# Environment & Configuration
+python-dotenv>=1.0.1
+pydantic>=2.11.0
+pydantic-settings>=2.7.0
+
+# Development & Notebooks
+jupyter>=1.1.1
+ipykernel>=6.29.5
+notebook>=7.3.0
+
+# Utilities
+tqdm>=4.67.1
+rich>=13.9.4
+requests>=2.32.3
+
+# Text Processing
+nltk>=3.9.1
+spacy>=3.8.2
+
+# Testing
+pytest>=8.3.4
+pytest-asyncio>=0.24.0
+
+# Search & Ranking
+rank-bm25>=0.2.2
+sentence-transformers>=3.3.1
+
+# Memory & Context Management
+mem0ai>=0.1.0
